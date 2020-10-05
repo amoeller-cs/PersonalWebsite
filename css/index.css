@@ -23,6 +23,11 @@ h4 {
     font-size: 20px;
 }
 
+.navbar {
+    font-family: "Helvetica", sans-serif;
+    margin-bottom: 10px;
+}
+
 .me {
     vertical-align: middle;
     margin: 0px 50px;
@@ -63,15 +68,10 @@ h4 {
     text-align: center;
 }
 
-.link {
-    text-align: center;
-    padding: 10px;
-    padding-top: 20px;
-}
-
 .but {
     text-align: center;
     padding: 10px;
+    margin: 10px;
 }
 
 .dark-mode {

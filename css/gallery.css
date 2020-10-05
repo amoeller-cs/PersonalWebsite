@@ -10,6 +10,11 @@ img {
     max-height: 800px;
 }
 
+.navbar {
+    font-family: "Helvetica", sans-serif;
+    margin-bottom: 10px;
+}
+
 .slideshow > div {
     text-align: center;
     padding: 5px;
