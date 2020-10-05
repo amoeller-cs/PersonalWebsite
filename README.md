@@ -3,7 +3,7 @@ Alex Moeller
 # Class:
 Made for: https://johnguerra.co/classes/webDevelopment_fall_2020/
 # Project Objective: 
-Design a website to act as a resume and portfolio.
+Design and implement a website to act as a resume and portfolio.
 # Instructions to build:
   Download files from Github\
   Install Node\
