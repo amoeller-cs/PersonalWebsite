@@ -1,4 +1,3 @@
-# PersonalWebsite
 # Author: 
 Alex Moeller
 # Project Objective: 
