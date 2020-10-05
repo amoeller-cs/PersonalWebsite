@@ -12,5 +12,5 @@ Design and implement a website to act as a resume and portfolio.
   Install project dependencies (using NPM install)\
   Navigate to project folder in cmd\
   Enter into the cmd: live-server\
-  Navigate to: https://localhost:8080 in your browser.\
+  Navigate to: http://localhost:8080 in your browser.\
   Note: instructions tested on a Windows machine
