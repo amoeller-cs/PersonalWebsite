@@ -19,22 +19,32 @@ h3 {
     font-size: 16px;
 }
 
+h4 {
+    font-size: 20px;
+}
+
+.card {
+    width: 18rem;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+}
+
 .resumeSection {
     text-align: center;
     font-size: 26px;
     padding: 10px;
 }
 
-.languageHeading, .schoolHead {
+.schoolHead {
     text-align: center;
     font-size: 20px;
-    text-decoration: underline;
+    text-decoration: bold;
 }
 
 .col {
-    border-style: solid;
     text-align: center;
-    border-width: thin;
+    margin: 2px;
 }
 
 .me {
@@ -42,7 +52,7 @@ h3 {
     margin: 0px 50px;
 }
 
-.picAndInfo, .projects {
+.picAndInfo {
     text-align: center;
 }
 
