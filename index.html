@@ -8,7 +8,7 @@
             name="description"
             content="This is the home page to my website. It is designed to 
             act as a portfolio for all my work, and is currently in progress."
-        />  
+        />
         <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -16,7 +16,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="css/webStyle.css" />
-        <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="imgs/favicon.ico" type="image/x-icon" />
     </head>
     <body>
         <div>
@@ -54,67 +54,71 @@
             </div>
             <div>
                 <h2 class="resumeSection">Languages / Projects:</h2>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h3 class="languageHeading">Java</h3>
-                            <div class="projects">
+                <div class="d-flex justify-content-center">
+                    <div class="card text-center text-white bg-secondary">
+                        <div class="card-body">
+                            <h4 class="card-title">C</h4>
+                            <p class="card-text">Caesar Cipher, Linked Queue</p>
+                        </div>
+                    </div>
+                    <div class="card text-center text-white bg-secondary">
+                        <div class="card-body">
+                            <h4 class="card-title">Java</h4>
+                            <p class="card-text">
                                 Apple A Day Android Application, Frogtron
                                 Computer Game
-                            </div>
+                            </p>
                         </div>
-                        <div class="col">
-                            <h3 class="languageHeading">Python</h3>
-                            <div class="projects">
+                    </div>
+                    <div class="card text-center text-white bg-secondary">
+                        <div class="card-body">
+                            <h4 class="card-title">Python</h4>
+                            <p class="card-text">
                                 Stock Management Relational Database, 2048 AI
                                 Player
-                            </div>
+                            </p>
                         </div>
                     </div>
+                    <div class="card text-center text-white bg-secondary">
+                        <div class="card-body">
+                            <h4 class="card-title">HTML, CSS, JS</h4>
+                            <p class="card-text">This site!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="resumeSection">Education:</h2>
+                <div class="container">
                     <div class="row">
-                        <div class="col">
-                            <h3 class="languageHeading">C</h3>
-                            <div class="projects">
-                                Caesar Cipher, Linked Queue
-                            </div>
+                        <div class="col text-white bg-secondary">
+                            <h3 class="schoolHead">School</h3>
                         </div>
-                        <div class="col">
-                            <h3 class="languageHeading">HTML, CSS, JS</h3>
-                            <div class="projects">This site!</div>
+                        <div class="col text-white bg-secondary">
+                            <h3 class="schoolHead">Degree</h3>
                         </div>
+                        <div class="w-100"></div>
+                        <div class="col text-white bg-secondary">Northeastern University</div>
+                        <div class="col text-white bg-secondary">
+                            MS in Computer Science (candidate)
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col text-white bg-secondary">Columbia University</div>
+                        <div class="col text-white bg-secondary">MA in Clinical Psychology</div>
+                        <div class="w-100"></div>
+                        <div class="col text-white bg-secondary">Boston University</div>
+                        <div class="col text-white bg-secondary">BA in Psychology</div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <h2 class="resumeSection">Education:</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="schoolHead">School</h3>
-                    </div>
-                    <div class="col">
-                        <h3 class="schoolHead">Degree</h3>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col">Northeastern University</div>
-                    <div class="col">MS in Computer Science (candidate)</div>
-                    <div class="w-100"></div>
-                    <div class="col">Columbia University</div>
-                    <div class="col">MA in Clinical Psychology</div>
-                    <div class="w-100"></div>
-                    <div class="col">Boston University</div>
-                    <div class="col">BA in Psychology</div>
-                </div>
+            <div class="link">
+                <a href="gallery.html">Click here to check out my gallery!</a>
             </div>
-        </div>
-        <div class="link">
-            <a href="gallery.html">Click here to check out my gallery!</a>
-        </div>
-        <div class="but">
-            <button id="darkMode" class="btn btn-secondary">
-                Turn out the lights?
-            </button>
+            <div class="but">
+                <button id="darkMode" class="btn btn-secondary">
+                    Turn out the lights?
+                </button>
+            </div>
         </div>
         <script src="js/webJS.js"></script>
     </body>
