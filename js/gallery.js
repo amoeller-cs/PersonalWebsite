@@ -11,7 +11,7 @@ let alts = [
     "U/I for the symptom selection page from Apple A Day",
     "An ER diagram from my stock management relational database model",
 ];
-let totalImages = 3;
+let totalImages = 4;
 
 function nextImage() {
     imageDex++;
