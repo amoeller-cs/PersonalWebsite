@@ -1,0 +1,20 @@
+body {
+    background-color: #f0f0f080;
+    background-image: url("../imgs/symphony.png");
+    /* Background pattern from Toptal Subtle Patterns */
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+img {
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.slideshow > div {
+    text-align: center;
+    padding: 5px;
+}
+
+#descript {
+    text-align: center;
+}
