@@ -1,60 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="author" content="Alex Moeller" />
-        <meta
-            name="description"
-            content="This is a gallery of some of my work."
-        />
-        <link rel="icon" href="imgs/favicon.ico" type="image/x-icon" />
-        <title>Gallery</title>
-        <link rel="stylesheet" href="css/gallery.css" />
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-            crossorigin="anonymous"
-        />
-    </head>
-    <body>
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Alex Moeller</a>
-                <div class="collapse navbar-collapse">
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="index.html">Home</a>
-                        <a class="nav-link active" href="#"
-                            >Gallery<span class="sr-only">(current)</span></a
-                        >
-                    </div>
-                </div>
-                <div class="collapse navbar-collapse justify-content-end">
-                    <div class="navbar-nav">
-                        <a
-                            class="nav-link"
-                            href="https://github.com/amoeller-cs"
-                            >Github</a
-                        >
-                    </div>
-                </div>
-            </nav>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Alex Moeller" />
+    <meta name="description" content="This is a gallery of some of my work." />
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Alex Moeller</a>
+        <div class="collapse navbar-collapse">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="#"
+              >Gallery<span class="sr-only">(current)</span></a
+            >
+          </div>
         </div>
-        <div class="slideshow">
-            <div>
-                <button id="next" class="btn btn-secondary">Next</button>
-            </div>
-            <div>
-                <img
-                    id="photo"
-                    src="imgs/appleADayHome.png"
-                    alt="Home page from my Android Application, Apple A Day"
-                />
-            </div>
-            <p id="descript">
-                Calendar page from my Android Application, Apple A Day.
-            </p>
+        <div class="collapse navbar-collapse justify-content-end">
+          <div class="navbar-nav">
+            <a class="nav-link" href="https://github.com/amoeller-cs">Github</a>
+          </div>
         </div>
-        <script src="js/gallery.js"></script>
-    </body>
+      </nav>
+    </div>
+    <div class="slideshow">
+      <div>
+        <button id="next" class="btn btn-secondary">Next</button>
+      </div>
+      <div>
+        <img
+          id="photo"
+          src="imgs/appleADayHome.png"
+          alt="Home page from my Android Application, Apple A Day"
+        />
+      </div>
+      <p id="descript">
+        Calendar page from my Android Application, Apple A Day.
+      </p>
+    </div>
+    <script src="js/gallery.js"></script>
+  </body>
 </html>

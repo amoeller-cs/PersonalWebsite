@@ -1,25 +1,25 @@
 body {
-    background-color: #f0f0f080;
-    background-image: url("../imgs/symphony.png");
-    /* Background pattern from Toptal Subtle Patterns */
-    font-family: "Helvetica", "Times New Roman", sans-serif;
+  background-color: #f0f0f080;
+  background-image: url("../imgs/symphony.png");
+  /* Background pattern from Toptal Subtle Patterns */
+  font-family: "Helvetica", "Times New Roman", sans-serif;
 }
 
 img {
-    max-width: 800px;
-    max-height: 800px;
+  max-width: 800px;
+  max-height: 800px;
 }
 
 .navbar {
-    font-family: "Helvetica", sans-serif;
-    margin-bottom: 10px;
+  font-family: "Helvetica", sans-serif;
+  margin-bottom: 10px;
 }
 
 .slideshow > div {
-    text-align: center;
-    padding: 5px;
+  text-align: center;
+  padding: 5px;
 }
 
 #descript {
-    text-align: center;
+  text-align: center;
 }
