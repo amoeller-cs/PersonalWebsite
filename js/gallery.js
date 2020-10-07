@@ -1,3 +1,7 @@
+// Your code is really clean so I am really nitpicking here! 
+// Perhaps consider adding a back button as well, or perhaps buttons that take you directly to an image . 
+// For the latter you would just need a setSlide(n) function that changes your imageDex to = n, and some buttons that would call each function. 
+
 let imageDex = 0;
 let images = [
   "imgs/appleADayHome.png",
